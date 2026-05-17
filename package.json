@@ -1,0 +1,16 @@
+{
+  "name": "lave-auto-ultranet",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Lave-Auto Ultranet · Esthétique automobile · Saint-Jérôme",
+  "scripts": {
+    "start": "serve -s . -l tcp://0.0.0.0:${PORT:-3000} --no-clipboard",
+    "dev": "serve -s . -l tcp://0.0.0.0:5174 --no-clipboard"
+  },
+  "dependencies": {
+    "serve": "^14.2.4"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
